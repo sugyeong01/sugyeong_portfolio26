@@ -107,7 +107,7 @@ const projects = {
         media: [
             {
                 type: "video",
-                src: "video/ejectx.mov"
+                src: "video/ejectx.mp4"
             },
             {
                 type: "image",
