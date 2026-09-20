@@ -132,7 +132,7 @@ const projects = {
             },
             {
                 type: "video",
-                src: "video/miuwil.mov"
+                src: "video/miuwil.mㅔ4"
             },
         
         ]
