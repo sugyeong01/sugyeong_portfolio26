@@ -87,7 +87,7 @@ const projects = {
 
     1: {
         number: "PROJECT 11",
-        category: "EDITORIAL DESIGN",
+        category: "Editorial Design / Internship",
         title: "The Korea Times Internship",
         description: "A one-year design experience at The Korea Times’ Los Angeles headquarters, focused on editorial layouts, advertising design, and print production.",
         year: "2025-2026",
@@ -98,10 +98,10 @@ const projects = {
 
     2: {
         number: "PROJECT 10",
-        category: "AI Generated",
+        category: "AI Video / AI Generated",
         title: "EjectX AI Video Contest",
         description: "AI-generated advertising campaign for an AI video competition, combining cinematic storytelling, game-inspired visuals, and a zombie apocalypse concept.",
-        year: "2026",
+        year: "2026 (Contribution 100%)",
         role: "Creative Direction · Concept Development · AI Generation · Video Editing",
         tools: "ChatGPT· Kling AI · CapCut",
         media: [
@@ -119,10 +119,10 @@ const projects = {
 
     11: {
         number: "PROJECT 09",
-        category: "Ai Generated",
+        category: "Visual Design / Ai Generated",
         title: "MIUMIU X WILSON",
         description: "An AI-generated visual concept exploring a fictional Miu Miu × Wilson collaboration, blending California tennis culture with a playful, nostalgic summer aesthetic.",
-        year: "2026",
+        year: "2026 (Contribution 100%)",
         role: "AI Content Design",
         tools: "ChatGPT · Kling AI · Photoshop · CapCut",
         media: [
@@ -141,9 +141,9 @@ const projects = {
     3: {
         number: "PROJECT 08",
         category: "Branding",
-        title: "'Aureal' Beuaty Brand",
+        title: "'Aureal' Beauty Brand",
         description: "AI-generated conceptual beauty brand exploring minimalism, femininity, and freshness through branding and visual design.",
-        year: "2026",
+        year: "2026 (Contribution 100%)",
         role: "Creative Direction · Brand Identity · Logo Design · Art Direction · AI Image Generation",
         tools: "Photoshop, Illurstration, Chat GPT, Figma",
         image: "img/projects/project_aureal.jpg"
@@ -154,7 +154,7 @@ const projects = {
         category: "Branding",
         title: "BYM Gym Brand",
         description: "A bold fitness brand identity built around strength, growth, and an energetic visual language.",
-        year: "2025",
+        year: "2025 (Contribution 100%)",
         role: "Branding · Visual Identity · Graphic Design",
         tools: "Photoshop · Illustrator",
         image: "img/projects/project_bym.jpg"
@@ -162,13 +162,22 @@ const projects = {
 
     5: {
         number: "PROJECT 06",
-        category: "Poster",
+        category: "Graphic Design / Poster",
         title: "Jeju Cream Matcha Latte Poster",
         description: "Seasonal beverage poster exploring a refresh, modern visual direction through bold typography and a vibrant green palette.",
-        year: "2025",
+        year: "2025 (Contribution 100%)",
         role: "Graphic Design · Poster Design",
         tools: "Photoshop · Illustrator",
-        image: "img/projects/project_matcha.jpg"
+        media: [
+            {
+                type: "image",
+                src: "img/projects/project_matcha.jpg"
+            },
+            {
+                type: "image",
+                src: "img/projects/project_brand.jpg"
+            },
+        ]
     },
 
     6: {
@@ -176,7 +185,7 @@ const projects = {
         category: "Poster",
         title: "Fashion Brand Pop-up Poster",
         description: "Poster design for a multi-brand fashion pop-up in Seongsu, combining bold typography and playful 3D graphics to create a contemporary and eye-catching visual.",
-        year: "2025",
+        year: "2025 (Contribution 100%)",
         role: "Graphic Design · Poster Design",
         tools: "Photoshop · Illustrator",
         image: "img/projects/project_brand.jpg"
@@ -187,7 +196,7 @@ const projects = {
         category: "UI / UX",
         title: "H&M App Redesign",
         description: "A mobile app redesign focused on improving the shopping experience through a cleaner interface, intuitive navigation, and a more streamlined user flow.",
-        year: "2025",
+        year: "2025 (Contribution 100%)",
         role: "UX Research · Wireframing · UI/UX Design · Visual Design",
         tools: "Figma · Photoshop",
         image: "img/projects/project_h&m.png"
@@ -195,10 +204,10 @@ const projects = {
 
     8: {
         number: "PROJECT 03",
-        category: "Web Design",
+        category: "UI / UX / Web Design",
         title: "Balenciaga Web Redesign",
         description: "A fashion editorial-inspired website redesign designed to recreate the immersive experience of reading a magazine in a digital space..",
-        year: "2025",
+        year: "2025 (Contribution 100%)",
         role: "Information Architecture · Wireframing · Web Design & Development",
         tools: "Figma · Photoshop · HTML · CSS · jQuery · Chat GPT",
         image: "img/projects/project_balenciaga.png",
@@ -207,10 +216,10 @@ const projects = {
 
     9: {
         number: "PROJECT 02",
-        category: "Web Design",
+        category: "UI / UX / Web Design",
         title: "AirBusan Web Redesign",
         description: "Website redesign focused on simplifying the booking experience through intuitive navigation, clear information architecture, and a more user-friendly interface.",
-        year: "2025",
+        year: "2025 (Contribution 100%)",
         role: "Information Architecture · Wireframing · Web Design & Development",
         tools: "Figma · Photoshop · HTML · CSS · jQuery",
         image: "img/projects/project_airbusan.png",
@@ -219,10 +228,10 @@ const projects = {
 
     10: {
         number: "PROJECT 01",
-        category: "Award",
-        title: "Yeongnam Univ Eblem & Slogan Design Contest",
+        category: "Logo Design / Award",
+        title: "Yeongnam Univ Emblem & Slogan Design Contest",
         description: "Encouragement Award — Emblem & Slogan Design Contest, Yeungnam University 77th Anniversary",
-        year: "2024",
+        year: "2024 (Contribution 100%)",
         role: "Concept Development · Logo Design · Visual Identityn",
         tools: "Illustrator",
         image: "img/projects/project_unilogo.jpg"
